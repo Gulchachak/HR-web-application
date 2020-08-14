@@ -1,3 +1,5 @@
+This is a HR application, in which users can sign up as an employee or a manager. Managers can create tests and employees can answer to them.
+
 Clone the repository to your local machine:
 
 Create Virtual Env and Install the requirements:
