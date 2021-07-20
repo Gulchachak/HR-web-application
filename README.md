@@ -1,16 +1,20 @@
-This is a HR application, in which users can sign up as an employee or a manager. Managers can create tests and employees can answer to them.
+# HR application
 
-Clone the repository to your local machine:
+This is an example of **Django** HR web application that uses the **PostgreSQL** as a database.
+Users can sign up as an employee or a manager. Managers can create tests and employees can answer to them.
+A running version of this app can be found on **Heroku** [(here)](https://guarded-hollows-13921.herokuapp.com/).
 
-Create Virtual Env and Install the requirements:
+### Running locally
 
-python -m venv env
-
-pip install -r requirements.txt
-
-Create the database and run the development server:
-
-python manage.py runserver
+```
+ git clone https://github.com/Gulchachak/HR-web-application
+ cd HR-web-application
+ python -m venv venv
+ venv\Scripts\activate
+ pip install -r requirements.txt
+ python manage.py runserver
+```
 
 The project will be available at http://127.0.0.1:8000
 
+Django Administration Username: admin, Password: admin
